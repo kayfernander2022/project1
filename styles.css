@@ -1,0 +1,43 @@
+html{
+  box-sizing: border-box;
+}
+
+body{
+  background-color:black;
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  
+}
+
+h1{
+  color:purple;
+  font-weight: bold;
+  font-size: 100px; 
+  margin: 12px;
+  padding: 12px;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+
+form input{
+  background-color: gray;
+  min-height:50px;
+}
+
+nav{
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  height: 60px;
+  background-color: purple;
+}
+
+nav > div{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 10px;
+  color: white;
+}
