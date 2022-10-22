@@ -1,3 +1,7 @@
+/*{
+  border: 2px solid red;
+}*/
+
 html{
   box-sizing: border-box;
 }
@@ -5,14 +9,14 @@ html{
 body{
   background-color:black;
   margin:0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: sans-serif;
   
 }
 
 h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color:purple;
   font-weight: bold;
   font-size: 100px; 
@@ -23,8 +27,17 @@ h1{
 }
 
 form input{
-  background-color: gray;
+  background-color:gray;
   min-height:50px;
+  width: 100px;
+  margin: 50px ;
+  border-radius: 8px;
+  font-family: 'Permanent Marker', cursive;
+}
+#search{
+  background-color: gray;
+  width: 900px;
+  min-height: 50px;
 }
 
 nav{
@@ -40,4 +53,5 @@ nav > div{
   font-weight: bold;
   margin: 10px 10px;
   color: white;
+  font-family: 'Permanent Marker', cursive;
 }
