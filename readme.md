@@ -16,10 +16,7 @@ An application that allows you to quickly choose a gif or sticker based on a key
 
 
 
-![Its a Gif layout](https://whimsical.com/its-a-gif-unit-1-project-QbDZVBf8oVZRScNNeFhXnK)
-
-https://whimsical.com/its-a-gif-unit-1-project-QbDZVBf8oVZRScNNeFhXnK
-
+![Its a Gif layout](./wireframe.png)
 
 ### Daily Plan
 
