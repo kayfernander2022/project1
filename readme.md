@@ -14,9 +14,8 @@ An application that allows you to quickly choose a gif or sticker based on a key
 
 ### Wireframes
 
+![Its a Gif layout](./wireframe2.png)
 
-
-![Its a Gif layout](./wireframe.png)
 
 ### Daily Plan
 
