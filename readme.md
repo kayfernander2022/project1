@@ -1,27 +1,37 @@
-# The Name of my App
+# It's a GIF
 
-a description of my project
+An application that allows you to quickly choose a gif or sticker based on a key search word.
 
 ### Technologies Used
 
-- tech
-- tech 2
-- tech 3
+- JavaScript
+- HTML
+- CSS
+- JQuery
+- Google Fonts
+- Giphy API
 
 
 ### Wireframes
 
-![SOme text](https://i.ytimg.com/vi/mRf3-JkwqfU/mqdefault.jpg)
+
+
+![Its a Gif layout](https://whimsical.com/its-a-gif-unit-1-project-QbDZVBf8oVZRScNNeFhXnK)
+
+https://whimsical.com/its-a-gif-unit-1-project-QbDZVBf8oVZRScNNeFhXnK
 
 
 ### Daily Plan
 
 |Day|Goal|
 |----|----|
-| 1 | Choose API |
-| 2 | Render data to screen |
-| 3 | Create form |
+| 1 | Choose API, wireframe |
+| 2 | Render data to screen, basic html and css |
+| 3 |  |
 
 ### Link to Project
-[My Project Live Page](https://project1-xi-one.vercel.app/)
-(https://kayfernander2022.github.io/project1/)
+[My Project Live Page](https://kayfernander2022.github.io/project1/)
+https://kayfernander2022.github.io/project1/
+https://project1-xi-one.vercel.app/
+
+### Future Enhancements
