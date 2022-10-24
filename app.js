@@ -18,9 +18,9 @@ function searchGif(searchTerm) {
 function displayResults(results){
   const gifItems = results.map((item) =>{
   const image = item.images.original
-  //const author = item.user
+  const author = item.user 
   return{
-    //author: author.display_name, //error cant see author?
+    author: author?.display_name, //display ony if there is an author?
     title: item.title,
     image: {
       url: image.url,
@@ -33,4 +33,4 @@ function displayResults(results){
 console.log(gifItems)
 }
 
-searchGif("balloons")
+searchGif("sun")
