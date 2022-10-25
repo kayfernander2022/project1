@@ -23,7 +23,7 @@ An application that allows you to quickly choose a gif or sticker based on a key
 |----|----|
 | 1 | Choose API, wireframe |
 | 2 | Render data to screen, basic html and css |
-| 3 |  |
+| 3 | detailed functions  |
 
 ### Link to Project
 [My Project Live Page](https://kayfernander2022.github.io/project1/)
