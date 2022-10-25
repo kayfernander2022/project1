@@ -45,10 +45,21 @@ console.log("this is" + itemEl)
 function appendItem(){
   const imgDiv = $("<div>")
   const imgEl = $("<img>")
-  // then we will add the attributes later.
+  // add attribute
+imgDiv.attr("style", "width: 248px; height: 248px; position: relative;");
 
+imgEl.attr("src","https://media3.giphy.com/media/44zuwboiEZCXZD58Hv/200w.gif?cid=ecf05e472scvdvm5q5g9076pz39g1leg40xub8645mkatq4i&amp;rid=200w.gif&amp;ct=g");
+imgEl.attr("style","width: 248px; height: 248px; position: relative;");
 
-//append the image element to the div. now append the div to the item container div.
+imgDiv.append(imgEl);
+itemEl.append(imgDiv);
+
+//append 
 
 
 }
+appendItem()
+appendItem()
+console.log(itemContainer)
+
+//next loop
