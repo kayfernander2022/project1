@@ -59,7 +59,7 @@ itemEl.append(imgDiv);
 
 }
 appendItem()
-appendItem()
+
 console.log(itemContainer)
 
 //next loop
