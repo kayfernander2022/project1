@@ -29,16 +29,13 @@ function displayResults(results){
       height: image.height,
       width: image.width
     }
-  }
+  };
 
 });
 return gifItems
 }
 
-searchGif("sun");
-
-
-//use jqery to find the item container and save in variable
+//find the item container and save in variable
 const itemEl = $("#itemContainer")
 console.log("this is" + itemEl)
 
@@ -47,19 +44,22 @@ function appendItem(imageItem){
   const imgDiv = $("<div>")
   const imgEl = $("<img>")
   // add attribute
-imgDiv.attr("style", `width: ${200} height: ${200} position: relative;`);
+imgDiv.attr("style", `width: ${200}px; height: ${200}px; position: relative;`);
 
 imgEl.attr("src", imageItem.url);
-  imgEl.attr("style",`width: ${200}px; height: ${200}px; position: relative;`);
+imgEl.attr("style",`width: ${200}px; height: ${200}px; position: relative;`);
 
-
+//append
 imgDiv.append(imgEl);
-itemEl.append(imgDiv);
-
-//append 
-
+itemEl.append(imgDiv); 
 
 }
 
+//add event listener
+$('form').on('submit', (event)=>{
+  event.preventDefault()
+const inputText = $("input[type=text]").val();
+searchGif(inputText);
 
+})
 
