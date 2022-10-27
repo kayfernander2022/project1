@@ -45,7 +45,7 @@ function appendItem(imageItem){
   const imgEl = $("<img>")
   // add attribute
 imgDiv.attr("style", `width: ${200}px; height: ${200}px; position: relative;`);
-
+imgDiv.attr("class","item");
 imgEl.attr("src", imageItem.url);
 imgEl.attr("style",`width: ${200}px; height: ${200}px; position: relative;`);
 
