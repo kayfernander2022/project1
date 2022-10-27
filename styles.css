@@ -78,3 +78,15 @@ nav > div{
 
 }
 
+@media (max-width: 600px){
+h1{
+  font-size: 50px;
+}
+}
+
+@media (min-width: 768px) {
+  .item{
+    width: 325px;
+    margin: 30px 15px 0;
+  }
+}
