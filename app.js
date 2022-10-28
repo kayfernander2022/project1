@@ -12,7 +12,7 @@ function searchGif(searchTerm) {
     });
   })
   .catch((error) =>{ //if fail
-    console.log("There was a problem " + error);
+    console.log("There was a problem " , error);
   });
 }
 
@@ -50,7 +50,6 @@ imgDiv.attr("style", `width: ${200}px; height: ${200}px; position: relative;`);
 imgDiv.attr("class","item");
 imgEl.attr("src", item.image.url);
 imgEl.attr("style",`width: ${200}px; height: ${200}px; position: relative;`);
-
 //append
 imgDiv.append(imgEl);
 imgDiv.append(imgDes);

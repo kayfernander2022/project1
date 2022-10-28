@@ -8,9 +8,10 @@ html{
 }
 
 body{
-  background-color:black;
   margin:0;
   font-family: sans-serif;
+  background-color: black;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
   
 }
 
@@ -121,7 +122,7 @@ form input{
 }
 
 #search{
-  background-color: gray;
+  background-color:gray;
   width: 400px;
   min-height: 50px;
 }

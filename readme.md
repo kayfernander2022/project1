@@ -5,8 +5,8 @@ An application that allows you to quickly choose a gif or sticker based on a key
 ### Technologies Used
 
 - JavaScript
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JQuery
 - Google Fonts
 - Giphy API
@@ -36,10 +36,11 @@ https://project1-xi-one.vercel.app/
 
 ### Credits
 
-https://dash.generalassemb.ly/kaykayatl/build-your-own-business-website
+- https://dash.generalassemb.ly/kaykayatl/build-your-own-business-website
+- https://www.transparenttextures.com/
 
 ### Future Enhancements
 
 - add drop down option to search stickers or gifs
-- working nav bar
+- working sticky nav bar
 - favorites list
