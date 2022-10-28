@@ -8,7 +8,7 @@ function searchGif(searchTerm) {
   .then((response) =>{ //if success then run response
     
     displayResults(response.data).forEach((item)=>{
-      appendItem(item.image)
+      appendItem(item)
     });
   })
   .catch((error) =>{ //if fail
@@ -40,24 +40,31 @@ const itemEl = $("#itemContainer")
 console.log("this is" + itemEl)
 
 
-function appendItem(imageItem){
-  const imgDiv = $("<div>")
-  const imgEl = $("<img>")
+function appendItem(item){
+  const imgDiv = $("<div>");
+  const imgEl = $("<img>");
+  const imgDes = $(`<p>Details<br><small>${item.title}</small></p>`);
+
   // add attribute
 imgDiv.attr("style", `width: ${200}px; height: ${200}px; position: relative;`);
 imgDiv.attr("class","item");
-imgEl.attr("src", imageItem.url);
+imgEl.attr("src", item.image.url);
 imgEl.attr("style",`width: ${200}px; height: ${200}px; position: relative;`);
 
 //append
 imgDiv.append(imgEl);
+imgDiv.append(imgDes);
+imgDiv.on('click', function(){
+  $(this).toggleClass("show-description")
+});
 itemEl.append(imgDiv); 
 
 }
 
 //add event listener
 $('form').on('submit', (event)=>{
-  event.preventDefault()
+  event.preventDefault();
+  itemEl.html("");
 const inputText = $("input[type=text]").val();
 searchGif(inputText);
 
